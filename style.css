@@ -3,6 +3,11 @@ a,span{
     text-decoration: none;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -40,15 +45,12 @@ body{
   background-color: #E5E7EB;
 }
 
-.navbar{
-
-}
-
 .sect-0{
 display: flex;
 justify-content: center;
 background-color: #1E293B;
 padding: 20px;
+flex: 1;
 }
 
 .sect-0 img{
